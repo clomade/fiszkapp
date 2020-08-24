@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inconsolata;
+}
+
+body{
+    background-color: #161B20;   
+}
+
+.baner{
+    text-align: center;
+    color: turquoise;
+     
+}
+
+.baner h1{
+    margin: 15px;
+}
+
+.menu{
+    text-align: center;
+    background-color: teal;
+    height: 77px;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    transition: all 0.5s;   
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li:hover{
+    background-color: rgba(77, 77, 77, 0.87);
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 115%;
+    font-weight: 500;
+}
+
+.active{
+    background-color: rgba(48, 48, 48, 0.87);
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 115%;
+    font-weight: 500;
+}
+
+.main{
+    margin: 60px;
+}
+
+.main td{
+    border: 1px solid grey;
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.main th{
+    background-color: grey;
+    padding: 5px;
+}
+
+.baza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formularz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.correct, .uncorrect, .again{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.correct{
+    background-color: rgb(4, 95, 4);
+}
+
+.uncorrect{
+    background-color: rgb(141, 17, 17);
+}
+
+.reset{
+    background-color: gray;
+    width: 360px;
+    height: 30px;
+    margin: 10px;
+    
+    font-weight: 700;
+}
+
+.przycisk{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.fiszka{
+    box-shadow: 1px 2px 1px 2px rgba(0,0,0,0.5);
+    background-color: rgba(243, 243, 243, 0.87);
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.fiszka a{
+    padding: 80px 5px;
+
+}
+
+.footer{
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+    width: 100%;
+}
+
+hr{
+    width: 300px;
+    border: 1px solid rgba(245, 245, 245, 0.411);
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraf{
+    color:white; 
+    text-align: center; 
+    font-size: 150%;
+}
